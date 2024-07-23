@@ -15,6 +15,11 @@ const ConversationPage = () => {
     setShowProfile,
     messageContainerRef,
     updateMessageArray,
+    noResults,
+    loopSearch,
+    searchTerm,
+    error,
+    searchedMessages,
   } = useConversationPage({
     conversation: { name: "", picture: "" },
     messages: [],
